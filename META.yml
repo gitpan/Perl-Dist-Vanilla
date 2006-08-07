@@ -11,5 +11,5 @@ no_index:
     - inc
     - t
 requires: 
-  Perl::Dist::Builder: 0.000001
-version: 6
+  Perl::Dist::Builder: 0.000003
+version: 7
