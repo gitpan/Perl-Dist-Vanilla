@@ -1,15 +1,19 @@
+--- 
 abstract: Vanilla Perl for win32
-author: David A Golden <dagolden@cpan.org>
+author: 
+  - Adam Kennedy <adamk@cpan.org>
 distribution_type: module
-generated_by: Module::Install version 0.63
+generated_by: Module::Install version 0.68
 license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
 name: Perl-Dist-Vanilla
 no_index: 
   directory: 
-    - extra
-    - bin
     - inc
     - t
 requires: 
-  Perl::Dist::Builder: 0.000003
-version: 7
+  Perl::Dist: 0.30
+  perl: 5.005
+version: 9
